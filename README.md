@@ -45,18 +45,3 @@ pip install .
 **_Speed Tip_**: If you don't need full commit history (about 1.14 GiB), you can
 use a shallow clone (`git clone https://github.com/kivymd/KivyMD.git --depth 1`)
 to save time. If you need full commit history, then remove `--depth 1`.
-
-### How to use with [Buildozer](https://github.com/kivy/buildozer)
-
-```ini
-requirements = kivy==2.1.0, kivymd==1.1.1, sdl2_ttf == 2.0.15, pillow
-```
-
-This will download latest release version of KivyMD from [PyPI](https://pypi.org/project/kivymd).
-
-If you want to use development version from [master](https://github.com/kivymd/KivyMD/tree/master/)
-branch, you should specify link to zip archive:
-
-```ini
-requirements = kivy==2.1.0, https://github.com/kivymd/KivyMD/archive/master.zip
-```
